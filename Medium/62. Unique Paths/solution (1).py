@@ -7,7 +7,6 @@
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        assert 1 <= m and n <= 100
         count = [[0 for _ in range(n)] for _ in range(m)]
 
         for i in range(m):

@@ -6,8 +6,6 @@
 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        assert len(nums) > 0 
-
         cur_large_prdct = cur_small_prdct = max_prdct = nums[0]
         
         for i in range(1, len(nums)):
