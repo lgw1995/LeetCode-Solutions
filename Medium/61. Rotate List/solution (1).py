@@ -14,7 +14,7 @@ from typing import Tuple
 
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
-        size, tail = self.__getTailLen(head)
+        size, tail = Solution._getTailLen(head)
         if size == 0:
             return head
         k %= size
@@ -29,7 +29,8 @@ class Solution:
         tail.next = head
         return new_head
 
-    def __getTailLen(self, head: ListNode) -> Tuple[int, ListNode]:
+    @staticmethod
+    def _getTailLen(head: ListNode) -> Tuple[int, ListNode]:
         if not head:
             return 0, None
         n = 1
