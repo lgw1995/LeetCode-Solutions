@@ -4,10 +4,13 @@
 
 ![Cover](Cover.png)
 
-Solutions and notes for [LeetCode](https://leetcode.com/) problems.
+Solutions and notes for [***LeetCode***](https://leetcode.com/) problems.
 
 ## Contact
 
-***GitHub:*** https://github.com/lgw1995/
+***GitHub***: https://github.com/lgw1995/
 
-***E-Mail:*** liugw01@outlook.com
+***LeetCode***: https://leetcode.com/lgw1995/
+
+***E-Mail***: liugw01@outlook.com
+
